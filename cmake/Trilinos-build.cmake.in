@@ -30,6 +30,7 @@ ExternalProject_Add(Trilinos
                -DTrilinos_ENABLE_Fortran=OFF
                -DTrilinos_ENABLE_Teuchos:BOOL=ON 
                -DTrilinos_ENABLE_Tpetra:BOOL=ON 
+               -DTrilinos_ENABLE_Xpetra=ON
                -DTrilinos_ENABLE_SEACASAprepro=ON 
                -DTPL_ENABLE_MPI:BOOL=OFF
                -DTPL_ENABLE_BLAS:BOOL=ON 
